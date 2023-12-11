@@ -20,7 +20,6 @@ resource "aws_route_table" "this" {
       nat_gateway_id            = route.value.nat_gateway_id
       vpc_peering_connection_id = route.value.connection_id
       network_interface_id      = route.value.network_interface_id
-      instance_id               = route.value.instance_id
     }
   }
 

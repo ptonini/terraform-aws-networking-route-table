@@ -1,3 +1,3 @@
 output "this" {
-  value = aws_subnet.this
+  value = aws_route_table.this
 }
