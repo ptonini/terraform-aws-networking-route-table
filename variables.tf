@@ -1,5 +1,9 @@
 variable "name" {}
 
+variable "main_route_table" {
+  default = false
+}
+
 variable "vpc" {
   type = object({
     id              = string
